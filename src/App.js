@@ -12,14 +12,14 @@ function App() {
     downPaymentData: 100000 * 0.2,
     loanData: 100000 * 0.8,
     interestData:5,
-    term:12,
+    term:6,
   });
 
   return (
     <div className="App">
       <Navbar />
       <Container maxWidth="xl" sx={{ mt: 8 }}>
-        <Grid container spacing={10}>
+        <Grid container spacing={10} alignItems="center">
           <Grid item md={8} xs={12}>
             <SliderSelect data={data} setData={setData}/>
             <TenureSelect data={data} setData={setData}/>

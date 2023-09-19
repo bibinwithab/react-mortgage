@@ -8,7 +8,7 @@ const TenureSelect = ({data, setData}) => {
   const handleChange = (event) => {
     setData({
       ...data,
-      tenure: event.target.value,
+      term: event.target.value,
     })
   };
 
@@ -22,9 +22,13 @@ const TenureSelect = ({data, setData}) => {
         label="Tenure"
         onChange={handleChange}
       >
+        <MenuItem value={6}>6 Months</MenuItem>
         <MenuItem value={12}>12 Months</MenuItem>
         <MenuItem value={18}>18 Months</MenuItem>
         <MenuItem value={24}>24 Months</MenuItem>
+        <MenuItem value={30}>30 Months</MenuItem>
+        <MenuItem value={36}>36 Months</MenuItem>
+
       </Select>
     </FormControl>
   );

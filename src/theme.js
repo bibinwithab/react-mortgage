@@ -1,4 +1,3 @@
-import { colors } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 
 export const theme = createTheme({
@@ -8,7 +7,7 @@ export const theme = createTheme({
   typography: {
     h4: {
       fontFamily: "monospace",
-      color: "steelblue",
+      color: "#61dbfb",
     },
     h5: {
       fontFamily: "monospace",
