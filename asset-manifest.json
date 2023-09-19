@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/react-mortgage/static/js/main.f5805e99.js",
+    "static/js/787.4c574a4c.chunk.js": "/react-mortgage/static/js/787.4c574a4c.chunk.js",
+    "index.html": "/react-mortgage/index.html",
+    "main.f5805e99.js.map": "/react-mortgage/static/js/main.f5805e99.js.map",
+    "787.4c574a4c.chunk.js.map": "/react-mortgage/static/js/787.4c574a4c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f5805e99.js"
+  ]
+}
