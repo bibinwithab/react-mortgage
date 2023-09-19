@@ -10,9 +10,9 @@ const Navbar = () => {
       <Toolbar>
         <Container maxWidth="sm">
           <Typography
-            variant="h5"
+            variant="h4"
             component="div"
-            sx={{ flexGrow: 1, textAlign: "center" }}
+            sx={{ flexGrow: 2, textAlign: "center", m: 4 }}
           >
             Calculate Mortgage
           </Typography>

@@ -8,14 +8,14 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Container maxWidth="xl" sx={{ mt: 4 }}>
-        <Grid container>
-          <Grid item>
+      <Container maxWidth="xl" sx={{ mt: 8 }}>
+        <Grid container spacing={10}>
+          <Grid item md={8} xs={12}>
             <SliderSelect />
             <TenureSelect />
           </Grid>
 
-          <Grid item>
+          <Grid item md={4} xs={12}>
             <Result />
           </Grid>
         </Grid>

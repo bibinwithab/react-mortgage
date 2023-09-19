@@ -6,9 +6,13 @@ export const theme = createTheme({
     mode: "dark",
   },
   typography: {
-    h5: {
+    h4: {
       fontFamily: "monospace",
       color: "steelblue",
+    },
+    h5: {
+      fontFamily: "monospace",
+      color: "InfoText",
     },
   },
 });
