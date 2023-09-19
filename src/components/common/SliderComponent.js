@@ -14,7 +14,7 @@ const SliderComponent = ({
   amount,
 }) => {
   return (
-    <>
+    <Stack my={2}>
       <Stack spacing={2}>
         <Typography variant="h5">{label}</Typography>
         <Typography variant="h5">{unit} {amount}</Typography>
@@ -38,7 +38,7 @@ const SliderComponent = ({
           {unit} {max}
         </Typography>
       </Stack>
-    </>
+    </Stack>
   );
 };
 
