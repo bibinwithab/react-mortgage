@@ -12,6 +12,7 @@ function App() {
     downPaymentData: 100000 * 0.2,
     loanData: 100000 * 0.8,
     interestData:5,
+    term:12,
   });
 
   return (
@@ -21,11 +22,11 @@ function App() {
         <Grid container spacing={10}>
           <Grid item md={8} xs={12}>
             <SliderSelect data={data} setData={setData}/>
-            <TenureSelect />
+            <TenureSelect data={data} setData={setData}/>
           </Grid>
 
           <Grid item md={4} xs={12}>
-            <Result />
+            <Result data={data}/>
           </Grid>
         </Grid>
       </Container>

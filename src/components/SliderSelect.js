@@ -60,7 +60,7 @@ const SliderSelect = ({data, setData}) => {
       <SliderComponent
         label="Rate Of Interest"
         min={4}
-        max={19}
+        max={14}
         steps={0.1}
         defaultValue={data.interestData}
         value={data.interestData}
