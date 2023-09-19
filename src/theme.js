@@ -1,12 +1,14 @@
-import { createTheme } from '@mui/material/styles';
+import { colors } from "@mui/material";
+import { createTheme } from "@mui/material/styles";
 
 export const theme = createTheme({
   palette: {
-    mode: 'dark',
+    mode: "dark",
   },
-  typography:{
-    h5:{
-      fontFamily:"monospace"
-    }
-  }
+  typography: {
+    h5: {
+      fontFamily: "monospace",
+      color: "steelblue",
+    },
+  },
 });
