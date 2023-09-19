@@ -4,4 +4,9 @@ export const theme = createTheme({
   palette: {
     mode: 'dark',
   },
+  typography:{
+    h5:{
+      fontFamily:"monospace"
+    }
+  }
 });

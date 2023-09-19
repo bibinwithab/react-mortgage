@@ -1,11 +1,16 @@
-import logo from './logo.svg';
+import Navbar from './components/Navbar';
+import Result from './components/Result';
+import SliderSelect from './components/SliderSelect';
+import TenureSelect from './components/TenureSelect';
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
-      
+      <Navbar/>
+      <Result/>
+      <SliderSelect/>
+      <TenureSelect/>
     </div>
   );
 }
