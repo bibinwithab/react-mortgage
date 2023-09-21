@@ -4,13 +4,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## How to run in your machine
 
->Clone this directory
->Run this comment in the project directory
+Clone this directory
+Run this comment in the project directory
+>Install required node packages
+```
+npm i
+```
+>Run development server on your machine
 ```
 npm start
 ```
 
-## Available Scripts
+## Other Available Scripts
 
 In the project directory, you can run:
 
