@@ -11,7 +11,7 @@ export const theme = createTheme({
     },
     h5: {
       fontFamily: "monospace",
-      color: "InfoText",
+      color: "#fff",
     },
   },
 });
