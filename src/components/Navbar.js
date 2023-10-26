@@ -17,7 +17,7 @@ const Navbar = () => {
             Calculate Mortgage
           </Typography>
         </Container>
-      </Toolbar>
+      </Toolbar> 
     </AppBar>
   );
 };
